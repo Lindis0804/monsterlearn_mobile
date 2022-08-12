@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ldh.monsterlearn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MonsterLearn"
+        android:usesCleartextTraffic="true">
+        <activity
+
+            android:name=".View.Log.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.Log.Verify"
+            android:exported="false" />
+        <activity
+            android:name=".View.Profile.ChangeProfile"
+            android:exported="false" />
+        <activity
+            android:name=".View.Profile.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".View.Course.course_detail"
+            android:exported="false" />
+        <activity
+            android:name=".View.Homepage.Homepage"
+            android:exported="false" />
+
+        <activity
+            android:name=".View.SplashScreen.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

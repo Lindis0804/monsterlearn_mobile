@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/course_detail_custom_answer.xml" value="0.1" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/course_detail_custom_answer_right.xml" value="0.1" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/course_detail_custom_progressbar.xml" value="0.277" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/homepage_custom_progress_bar.xml" value="0.2765" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/homepage_custom_song_item.xml" value="0.2805" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/hompage_fragment_course_detail_custom_button.xml" value="0.2945" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/login_custom_textview.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/login_custom_textview_warning.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/profile_arrow_back.xml" value="0.3315" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/profile_custom_layout.xml" value="0.3315" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/drawable/profile_setting.xml" value="0.3315" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/activity_change_profile.xml" value="0.33" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/activity_main.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/activity_splash_screen.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/activity_verify.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/course_detail.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/course_detail_fragment_no_questions.xml" value="0.25" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/course_detail_fragment_questions.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/first_screen.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/homepage.xml" value="0.33" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/homepage_course_item.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/homepage_fragment_course_detail.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/homepage_fragment_course_detail_dialog_critic.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/homepage_fragment_course_detail_dialog_rate.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/homepage_fragment_learn.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/homepage_music.xml" value="0.2760416666666667" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/homepage_parentlayout.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/homepage_secondlayout.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/login.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/login_login.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/login_register.xml" value="0.33" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn - Copy/app/src/main/res/layout/song_item.xml" value="0.2760416666666667" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.254" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/course_detail_code.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/course_detail_computer.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/course_detail_custom_bottom_slide.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/course_detail_custom_button_back.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/course_detail_custom_button_continue.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/course_detail_custom_top_bottom_slide.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/course_detail_fragment_question.xml" value="0.2855" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/course_raw_cover_image.xml" value="0.1" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_coins.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_custom_button.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_custom_course.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_custom_nav_bar.xml" value="0.2185" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_custom_top_bar.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_fragment_course_detail_code.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_fragment_course_detail_computer.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_raw_computer_network.xml" value="0.229" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_raw_cover_image.xml" value="0.229" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_raw_noti.xml" value="0.2185" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_raw_notification.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/homepage_raw_three_dots.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/hompage_fragment_course_detail_custom_button.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/login_custom_button.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/login_custom_textview.xml" value="0.3465" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/login_design_team.xml" value="0.333" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/login_icon_facebook.xml" value="0.254" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/login_icon_google.xml" value="0.254" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/drawable/open_engineering_team.xml" value="0.254" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/activity_course_detail.xml" value="0.33" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/activity_main.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/course.xml" value="0.32916666666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/course_detail.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/course_detail_fragment_questions.xml" value="0.28125" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/course_detail_luyen_thi.xml" value="0.28125" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/first_screen.xml" value="0.25" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/homepage.xml" value="0.25" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/homepage_course_item.xml" value="0.5" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/homepage_fragment_course_detail.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/homepage_fragment_learn.xml" value="0.31614583333333335" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/homepage_learn.xml" value="0.22239583333333332" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/homepage_parentlayout.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/homepage_secondlayout.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/login.xml" value="0.33" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/login_login.xml" value="0.25" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/layout/login_register.xml" value="0.34479166666666666" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/menu/homepage_menu2.xml" value="0.21145833333333333" />
+        <entry key="..\:/Studying/AndroidStudio/Monster Learn/app/src/main/res/menu/homepage_nav_menu.xml" value="0.32916666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

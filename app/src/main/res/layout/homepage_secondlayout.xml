@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/homepage_background"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/homepage_secondlayout_recyclerview_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homepage_secondlayout_textview_manage" />
+
+    <TextView
+        android:id="@+id/homepage_secondlayout_textview_manage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/homepage_secondlayout_button_discover_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_custom_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Discover new courses"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage_secondlayout_recyclerview_course" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

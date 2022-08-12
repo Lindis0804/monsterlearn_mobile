@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Profile.ChangeProfile"
+    android:background="@color/homepage_background"
+    >
+
+    <ImageButton
+        android:id="@+id/change_profile_imageButton_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_arrow_back"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE PROFILE"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/change_profile_imageButton_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/change_profile_imageButton_back"
+        app:layout_constraintTop_toTopOf="@id/change_profile_imageButton_back" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/change_profile_imageButton_back" />
+
+    <EditText
+        android:id="@+id/change_profile_editText_name"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/change_profile_height"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/course_detail_custom_answer"
+        android:maxEms="13"
+        android:singleLine="false"
+        android:inputType="textPersonName"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        android:onClick="changeHeight"
+        />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/change_profile_editText_name"
+        app:layout_constraintTop_toBottomOf="@+id/change_profile_editText_name" />
+
+    <EditText
+        android:id="@+id/change_profile_editText_address"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/change_profile_height"
+        android:background="@drawable/course_detail_custom_answer"
+        android:maxEms="13"
+        android:singleLine="false"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        android:layout_marginRight="10dp"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        android:onClick="changeHeight"
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work At"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/change_profile_editText_contact"
+        app:layout_constraintTop_toBottomOf="@+id/change_profile_editText_contact" />
+
+    <EditText
+        android:id="@+id/change_profile_editText_workAt"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/change_profile_height"
+        android:background="@drawable/course_detail_custom_answer"
+        android:ems="10"
+        android:maxEms="13"
+        android:singleLine="false"
+        android:inputType="textPersonName"
+       android:padding="7dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/change_profile_editText_birthday"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        android:onClick="changeHeight"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About me"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/change_profile_editText_workAt"
+        app:layout_constraintTop_toBottomOf="@+id/change_profile_editText_workAt" />
+
+    <EditText
+        android:id="@+id/change_profile_editText_about"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/change_profile_height"
+        android:background="@drawable/course_detail_custom_answer"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="7dp"
+        android:maxEms="13"
+        android:singleLine="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/change_profile_editText_workAt"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        android:onClick="changeHeight"
+        />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact "
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/change_profile_editText_address"
+        app:layout_constraintTop_toBottomOf="@+id/change_profile_editText_address" />
+
+    <EditText
+        android:id="@+id/change_profile_editText_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/change_profile_height"
+        android:background="@drawable/course_detail_custom_answer"
+        android:ems="10"
+        android:maxEms="13"
+        android:singleLine="false"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        android:onClick="changeHeight"
+        />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/change_profile_editText_birthday"
+        app:layout_constraintTop_toTopOf="@+id/textView16" />
+
+    <EditText
+        android:id="@+id/change_profile_editText_birthday"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/change_profile_height"
+        android:layout_marginLeft="7dp"
+        android:background="@drawable/course_detail_custom_answer"
+        android:ems="10"
+        android:maxEms="13"
+        android:singleLine="false"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/change_profile_editText_address"
+        app:layout_constraintStart_toEndOf="@+id/change_profile_editText_contact"
+        app:layout_constraintTop_toTopOf="@+id/change_profile_editText_contact"
+        android:onClick="changeHeight"
+        />
+
+    <Button
+        android:id="@+id/change_profile_button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_custom_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/change_profile_editText_about" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="25dp"
+        >
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/profile_avatar" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

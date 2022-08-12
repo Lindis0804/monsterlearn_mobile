@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/homepage_background"
+    >
+
+    <TextView
+        android:id="@+id/course_detail_fragment_questions_textview_questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Which of the following is the entry point of every C++ program"
+        android:maxLines="10"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/course_detail_fragment_questions_radiogroup_answers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course_detail_fragment_questions_textview_questions">
+
+        <RadioButton
+            android:id="@+id/course_detail_fragment_questions_radiobutton_A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2.5dp"
+            android:background="@drawable/course_detail_custom_answer"
+            android:text="int main()"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/course_detail_fragment_questions_radiobutton_B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2.5dp"
+            android:background="@drawable/course_detail_custom_answer"
+            android:text="#include iostream"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/course_detail_fragment_questions_radiobutton_C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2.5dp"
+            android:background="@drawable/course_detail_custom_answer"
+            android:text="using namespace std;"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/course_detail_fragment_questions_radiobutton_D"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2.5dp"
+            android:background="@drawable/course_detail_custom_answer"
+            android:text="void main()"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/homepage_background"
+    >
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.25"
+        android:orientation="vertical"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.5"
+        android:orientation="vertical"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.75"
+        android:orientation="vertical"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/music_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/music_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/music_recyclerView" />
+
+    <ImageButton
+        android:id="@+id/music_imageButton_skip_next"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/g1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/music_seekBar"
+        app:srcCompat="@drawable/homepage_music_skip_back" />
+
+    <ImageButton
+        android:id="@+id/music_imageButton_pause"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/g2"
+        app:layout_constraintStart_toStartOf="@+id/g1"
+        app:layout_constraintTop_toTopOf="@+id/music_imageButton_skip_next"
+        app:srcCompat="@drawable/homepage_music_pause" />
+
+    <ImageButton
+        android:id="@+id/music_imageButton_skip_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/g3"
+        app:layout_constraintStart_toStartOf="@+id/g2"
+        app:layout_constraintTop_toTopOf="@+id/music_imageButton_pause"
+        app:srcCompat="@drawable/homepage_music_skip_next" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:cardCornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/music_imageButton_skip_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/g3"
+        app:layout_constraintTop_toTopOf="@+id/music_imageButton_skip_back">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/profile_avatar"
+            tools:layout_editor_absoluteX="259dp"
+            tools:layout_editor_absoluteY="528dp" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

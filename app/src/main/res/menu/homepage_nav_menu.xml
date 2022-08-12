@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/homepage_nav_learn"
+    android:icon="@drawable/homepage_raw_learn"
+    android:title="Learn"
+
+    app:cnb_iconColor="@color/white"
+    app:cnb_backgroundColor="@color/purple_textview_stroke"
+    app:cnb_textColor="@color/white"
+    android:iconTint="@color/white"
+    />
+    <item
+        android:id="@+id/homepage_nav_music"
+        android:icon="@drawable/homepage_raw_music"
+        android:title="Music"
+        app:cnb_iconColor="@color/white"
+        app:cnb_backgroundColor="@color/purple_textview_stroke"
+        app:cnb_textColor="@color/white"
+        android:iconTint="@color/white"
+        />
+    <item
+        android:id="@+id/homepage_nav_discuss"
+        android:icon="@drawable/homepage_raw_discuss"
+        android:title="Discuss"
+        app:cnb_iconColor="@color/white"
+        app:cnb_backgroundColor="@color/purple_textview_stroke"
+        app:cnb_textColor="@color/white"
+        android:iconTint="@color/white"
+        />
+    <item
+        android:id="@+id/homepage_nav_profile"
+        android:icon="@drawable/homepage_raw_profile"
+        android:title="Profile"
+        app:cnb_iconColor="@color/white"
+        app:cnb_backgroundColor="@color/purple_textview_stroke"
+        app:cnb_textColor="@color/white"
+        android:iconTint="@color/white"
+        />
+</menu>

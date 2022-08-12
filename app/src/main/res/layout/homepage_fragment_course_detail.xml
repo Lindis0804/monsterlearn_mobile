@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/homepage_background"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/homepage_fragment_course_detail_subConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/homepage_custom_top_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/homepage_fragment_course_detail_textview_learning_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="144dp"
+            android:text="Learning Progress"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/homepage_fragment_course_detail_textview_course_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/homepage_margin_top"
+            android:text="Course complete"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            app:layout_constraintStart_toStartOf="@+id/homepage_fragment_course_detail_textview_learning_progress"
+            app:layout_constraintTop_toBottomOf="@+id/homepage_fragment_course_detail_textview_learning_progress" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_rawRes="@raw/medal"
+            app:lottie_autoPlay="true"
+            app:lottie_repeatCount="1000000000"
+            />
+
+        <ProgressBar
+            android:id="@+id/homepage_fragment_course_detail_progressbar_course_completed"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="@dimen/homepage_margin_top"
+            android:layout_marginRight="10dp"
+            android:progressDrawable="@drawable/homepage_custom_progress_bar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/homepage_fragment_course_detail_textview_course_completed"
+            app:layout_constraintTop_toBottomOf="@+id/homepage_fragment_course_detail_textview_course_completed" />
+
+        <ProgressBar
+            android:id="@+id/homepage_fragment_course_detail_progressbar_challenge_completed"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="@dimen/homepage_margin_top"
+            android:layout_marginRight="10dp"
+            android:progressDrawable="@drawable/homepage_custom_progress_bar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/homepage_fragment_course_detail_textview_course_completed"
+            app:layout_constraintTop_toBottomOf="@+id/homepage_fragment_course_detail_textview_challenge_completed" />
+
+        <TextView
+            android:id="@+id/homepage_fragment_course_detail_textview_challenge_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/homepage_margin_top"
+            android:text="Challenge completed"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/homepage_fragment_course_detail_progressbar_course_completed"
+            app:layout_constraintTop_toBottomOf="@+id/homepage_fragment_course_detail_progressbar_course_completed" />
+
+        <TextView
+            android:id="@+id/homepage_fragment_course_detail_textview_numer_course_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:text="0/4"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/homepage_fragment_course_detail_textview_course_completed"
+            app:layout_constraintEnd_toEndOf="@+id/homepage_fragment_course_detail_progressbar_course_completed"
+            app:layout_constraintTop_toTopOf="@+id/homepage_fragment_course_detail_textview_course_completed" />
+
+        <TextView
+            android:id="@+id/homepage_fragment_course_detail_textview_numer_challenge_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:text="0/100"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/homepage_fragment_course_detail_textview_challenge_completed"
+            app:layout_constraintEnd_toEndOf="@+id/homepage_fragment_course_detail_progressbar_challenge_completed"
+            app:layout_constraintTop_toTopOf="@+id/homepage_fragment_course_detail_textview_challenge_completed" />
+
+        <Button
+            android:id="@+id/homepage_fragment_course_detail_button_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="7dp"
+            android:text="Đánh giá"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:background="@drawable/course_detail_custom_button_continue"
+            app:layout_constraintStart_toStartOf="@+id/homepage_fragment_course_detail_progressbar_challenge_completed"
+            app:layout_constraintTop_toBottomOf="@+id/homepage_fragment_course_detail_progressbar_challenge_completed" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/homepage_fragment_course_detail_button_luyen_tap"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@drawable/hompage_fragment_course_detail_custom_button"-->
+<!--        android:drawableLeft="@drawable/homepage_fragment_course_detail_code"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:paddingRight="10dp"-->
+<!--        android:text="Luyện tập"-->
+<!--        android:textColor="@color/purple_textview_stroke"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/homepage_fragment_course_detail_subConstraintLayout" />-->
+    <LinearLayout
+        android:id="@+id/homepage_fragment_course_detail_button_luyen_tap"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/hompage_fragment_course_detail_custom_button"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage_fragment_course_detail_subConstraintLayout">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/coding2"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Luyện tập"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/purple_textview_stroke" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/homepage_fragment_course_detail_button_luyen_thi"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/hompage_fragment_course_detail_custom_button"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage_fragment_course_detail_button_luyen_tap">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_gravity="center"
+                app:lottie_rawRes="@raw/coding1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Luyện thi"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/purple_textview_stroke" />
+        </LinearLayout>
+    <!--    <Button-->
+<!--        android:id="@+id/homepage_fragment_course_detail_button_luyen_thi"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@drawable/hompage_fragment_course_detail_custom_button"-->
+<!--        android:drawableLeft="@drawable/homepage_fragment_course_detail_computer"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:paddingRight="10dp"-->
+<!--        android:text="Luyện thi"-->
+<!--        android:textColor="@color/purple_textview_stroke"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/homepage_fragment_course_detail_button_luyen_tap" />-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage_fragment_course_detail_button_luyen_thi"
+        app:lottie_rawRes="@raw/learning_tool"
+        app:lottie_autoPlay="true"
+        app:lottie_repeatCount="10000000"
+        />
+<!--        app:srcCompat="@drawable/homepage_fragment_course_detail_raw_reminder" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
